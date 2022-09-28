@@ -774,12 +774,11 @@
 	</ul>
 </div>
 
-<p class="label">set-up-database.php</p>
 <div style="padding-left: 40px;">
 	<ul>
 		<li>			
 			<input type="checkbox" id="list-item-46" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
-			<label for="list-item-46"><p class="label">set-background-color.php</p></label>
+			<label for="list-item-46"><p class="label">set-up-database.php</p></label>
 			
 			<ul>
 				<li>No known vulnerabilities. We should add something.</li>
@@ -788,172 +787,287 @@
 	</ul>
 </div>
 
-<p class="label">show-log.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>Denial of Service if you fill up the log</li>
-		<li>XSS via the hostname, client IP, browser HTTP header, Referer HTTP header, and date fields.</li>
-		<li>HTML Injection</li>
+		<li>			
+			<input type="checkbox" id="list-item-47" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-47"><p class="label">show-log.php</p></label>
+			
+			<ul>
+				<li>Denial of Service if you fill up the log</li>
+				<li>XSS via the hostname, client IP, browser HTTP header, Referer HTTP header, and date fields.</li>
+				<li>HTML Injection</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">site-footer-xss-discusson.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>XSS and HTMLi via the user agent string HTTP header</li>
+		<li>			
+			<input type="checkbox" id="list-item-48" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-48"><p class="label">site-footer-xss-discusson.php</p></label>
+			
+			<ul>
+				<li>XSS and HTMLi via the user agent string HTTP header</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">source-viewer.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>Loading of any arbitrary file including operating system files.</li>
-		<li>HTML Injection</li>
-		<li>Cross Site Scripting</li>
-		<li>Application log injection</li>
+		<li>			
+			<input type="checkbox" id="list-item-49" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-49"><p class="label">source-viewer.php</p></label>
+			
+			<ul>
+				<li>Loading of any arbitrary file including operating system files.</li>
+				<li>HTML Injection</li>
+				<li>Cross Site Scripting</li>
+				<li>Application log injection</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">sqlmap-targets.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>None</li>
+		<li>			
+			<input type="checkbox" id="list-item-50" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-50"><p class="label">sqlmap-targets.php</p></label>
+			
+			<ul>
+				<li>None</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">ssl-misconfiguration.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>
-			Discusses TLS downgrade attack due to a vulnerability in the site globally.
-			No known vulnerabilities on the page itself.
-		</li>
+		<li>			
+			<input type="checkbox" id="list-item-51" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-51"><p class="label">ssl-misconfiguration.php</p></label>
+			
+			<ul>
+				<li>
+					Discusses TLS downgrade attack due to a vulnerability in the site globally.
+					No known vulnerabilities on the page itself.
+				</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">styling.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>Path Relative Style Sheet Injection</li>
-		<li>HTML Injection</li>
-		<li>Cross Site Scripting</li>
+		<li>			
+			<input type="checkbox" id="list-item-52" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-52"><p class="label">styling.php</p></label>
+			
+			<ul>
+				<li>Path Relative Style Sheet Injection</li>
+				<li>HTML Injection</li>
+				<li>Cross Site Scripting</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">text-file-viewer.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>Loading of any arbitrary web page on the Interet or locally including the sites password files.</li>
-		<li>Phishing</li>
-		<li>Method Tampering</li>
-		<li>Cross site scripting</li>
-		<li>Application log injection</li>
+		<li>			
+			<input type="checkbox" id="list-item-53" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-53"><p class="label">text-file-viewer.php</p></label>
+			
+			<ul>
+				<li>Loading of any arbitrary web page on the Interet or locally including the sites password files.</li>
+				<li>Phishing</li>
+				<li>Method Tampering</li>
+				<li>Cross site scripting</li>
+				<li>Application log injection</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">upload-file.php<span class="big-asterik">*</span></p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>Unrestricted File Upload</li>
-		<li>Cross Site Scripting</li>
-		<li>HTML injection</li>
+		<li>			
+			<input type="checkbox" id="list-item-54" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-54"><p class="label">upload-file.php<span class="big-asterik">*</span></p></label>
+			
+			<ul>
+				<li>Unrestricted File Upload</li>
+				<li>Cross Site Scripting</li>
+				<li>HTML injection</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">usage-instructions.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>No known vulnerabilities. We should add some.</li>
+		<li>			
+			<input type="checkbox" id="list-item-55" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-55"><p class="label">usage-instructions.php<span class="big-asterik">*</span></p></label>
+			
+			<ul>
+				<li>No known vulnerabilities. We should add some.</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">user-agent-impersonation.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>Javascript String Injection</li>
-		<li>Cross site scripting</li>
-		<li>User agent impersonation</li>
+		<li>			
+			<input type="checkbox" id="list-item-56" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-56"><p class="label">user-agent-impersonation.php</p></label>
+			
+			<ul>
+				<li>Javascript String Injection</li>
+				<li>Cross site scripting</li>
+				<li>User agent impersonation</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">user-info.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>SQL injection to dump all usernames and passwords via the username field or the password field</li>
-		<li>XSS via any of the displayed fields. Inject the XSS on the register.php page.</li>
-		<li>XSS via the username field</li>
-		<li>JavaScript validation bypass</li>
+		<li>			
+			<input type="checkbox" id="list-item-57" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-57"><p class="label">user-info.php</p></label>
+			
+			<ul>
+				<li>SQL injection to dump all usernames and passwords via the username field or the password field</li>
+				<li>XSS via any of the displayed fields. Inject the XSS on the register.php page.</li>
+				<li>XSS via the username field</li>
+				<li>JavaScript validation bypass</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">user-info-xpath.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>XPath injection to dump all usernames and passwords via the username field or the password field</li>
-		<li>XSS via any of the displayed fields. Inject the XSS on the register.php page.</li>
-		<li>XSS via the username field</li>
-		<li>JavaScript validation bypass</li>
+		<li>			
+			<input type="checkbox" id="list-item-58" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-58"><p class="label">user-info-xpath.php</p></label>
+			
+			<ul>
+				<li>XPath injection to dump all usernames and passwords via the username field or the password field</li>
+				<li>XSS via any of the displayed fields. Inject the XSS on the register.php page.</li>
+				<li>XSS via the username field</li>
+				<li>JavaScript validation bypass</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">user-poll.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>Parameter pollution</li>
-		<li>Method Tampering</li>
-		<li>XSS via the choice parameter</li>
-		<li>Cross site request forgery to force user choice</li>
-		<li>HTML injection</li>
+		<li>			
+			<input type="checkbox" id="list-item-59" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-59"><p class="label">user-poll.php</p></label>
+			
+			<ul>
+				<li>Parameter pollution</li>
+				<li>Method Tampering</li>
+				<li>XSS via the choice parameter</li>
+				<li>Cross site request forgery to force user choice</li>
+				<li>HTML injection</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">view-someones-blog.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>
-			Persistent XSS via any of the displayed fields.
-			They are input on the add to your blog page.
-		</li>
+		<li>			
+			<input type="checkbox" id="list-item-60" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-60"><p class="label">view-someones-blog.php</p></label>
+			
+			<ul>
+				<li>
+					Persistent XSS via any of the displayed fields.
+					They are input on the add to your blog page.
+				</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">view-user-privilege-level.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>CBC bit flipping attack</li>
+		<li>			
+			<input type="checkbox" id="list-item-61" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-61"><p class="label">view-user-privilege-level.php</p></label>
+			
+			<ul>
+				<li>CBC bit flipping attack</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">webservices/rest/ws-user-account.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>REST Web Service: SQL Injection</li>
-		<li>REST Web Service: Username emuneration</li>
+		<li>			
+			<input type="checkbox" id="list-item-62" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-62"><p class="label">webservices/rest/ws-user-account.php</p></label>
+			
+			<ul>
+				<li>REST Web Service: SQL Injection</li>
+				<li>REST Web Service: Username emuneration</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">webservices/soap/ws-lookup-dns-record.php</p>
+
 <div style="padding-left: 40px;">
 	<ul>
-		<li>SOAP Web Service: Command Injection</li>
-		<li>SOAP Web Service: Username emuneration</li>
+		<li>			
+			<input type="checkbox" id="list-item-63" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-63"><p class="label">webservices/soap/ws-lookup-dns-record.php</p></label>
+			
+			<ul>
+				<li>SOAP Web Service: Command Injection</li>
+				<li>SOAP Web Service: Username emuneration</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">webservices/soap/ws-user-account.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>SOAP Web Service: SQL Injection</li>
-		<li>SOAP Web Service: Username emuneration</li>
+		<li>			
+			<input type="checkbox" id="list-item-64" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-64"><p class="label">webservices/soap/ws-user-account.php</p></label>
+			
+			<ul>
+				<li>SOAP Web Service: SQL Injection</li>
+				<li>SOAP Web Service: Username emuneration</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
 
-<p class="label">xml-validator.php</p>
 <div style="padding-left: 40px;">
 	<ul>
-		<li>XML Entity Injection Attack</li>
-		<li>XML Entity Expansion</li>
-		<li>XML Injection</li>
-		<li>Reflected Cross site scripting via XML Injection</li>
+		<li>			
+			<input type="checkbox" id="list-item-65" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
+			<label for="list-item-65"><p class="label">xml-validator.php</p></label>
+			
+			<ul>
+				<li>XML Entity Injection Attack</li>
+				<li>XML Entity Expansion</li>
+				<li>XML Injection</li>
+				<li>Reflected Cross site scripting via XML Injection</li>
+			</ul>			
+		</li>		
 	</ul>
 </div>
