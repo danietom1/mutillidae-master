@@ -50,7 +50,7 @@
 <div style="margin: 5px;">
 	<span style="font-weight: bold; margin-right: 50px;">
 	<a id="back-button-anchor">
-		<img	src="./images/back-button-64-64.png"
+		<img	src="./images/back.png" style="width: 50px;"
 				alt="Go Back"
 				align="middle"
 		/>
