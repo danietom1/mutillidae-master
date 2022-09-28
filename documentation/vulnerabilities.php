@@ -1060,7 +1060,7 @@
 	<ul>
 		<li>			
 			<input type="checkbox" id="list-item-65" style="border-right-style: solid;border-right-width: 2px;padding-right: 100px;right: 50000000px;">
-			<label for="list-item-65"><p class="label">xml-validator.php</p></label>
+			<label for="list-item-65" class="last"><p class="label">xml-validator.php</p></label>
 			
 			<ul>
 				<li>XML Entity Injection Attack</li>
